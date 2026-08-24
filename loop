@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for t in this will help me i guess; do 
+	echo "$t"
+done;
