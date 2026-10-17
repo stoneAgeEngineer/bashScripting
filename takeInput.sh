@@ -1,6 +1,6 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 
-if [[ -n $1 ]] then 
+if [[ -n $1 ]] ;then 
 	name=$1
 else 
 	read -p 'Enter your name: ' name 
