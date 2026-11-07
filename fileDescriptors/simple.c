@@ -16,6 +16,7 @@ int main(){
 
 	ssize_t n = read(fd , &buff , count); 
 
+	// read() doesnt add 0 at end . 0 is the only end marker in C . strings dont store the lenght of bytes . Adding 0 manually so it stops reading string
 	buff[100] = '\0';
 
 	printf(" data %s\n " , buff);
